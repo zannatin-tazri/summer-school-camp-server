@@ -5,8 +5,7 @@ const app = express();
 const cors=require('cors');
 const port = process.env.PORT || 5000;
 
-const instructors=require('./Data/instructors.json');
-const classes=require('./Data/Classes.json');
+
 
 console.log(process.env.DB_PASS);
 
@@ -26,12 +25,26 @@ async function run() {
   try {
     // Connect the client to the server	(optional starting in v4.7)
     await client.connect();
+
+    const instructor=client.db('ourInstructor').collection('instructor');
+    app.get('/instructor', async(req,res)=>{
+        const cursor2=instructor.find();
+        const result=await cursor2.toArray();
+        res.send(result);
+    })
+    
+    const classes=client.db('summerCamp').collection('classes');
+    app.get('/classes', async(req,res)=>{
+        const cursor=classes.find();
+        const result=await cursor.toArray();
+        res.send(result);
+    })
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
     console.log("Pinged your deployment. You successfully connected to MongoDB!");
   } finally {
     // Ensures that the client will close when you finish/error
-    await client.close();
+    // await client.close();
   }
 }
 run().catch(console.dir);
@@ -44,12 +57,6 @@ app.get('/', (req, res) => {
     res.send('Hello World!')
   });
 
-  app.get('/instructors',(req,res)=>{
-    res.send(instructors);
-  })
-  app.get('/classes',(req,res)=>{
-    res.send(classes);
-  })
   
   app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)

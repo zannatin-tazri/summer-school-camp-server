@@ -1,6 +1,5 @@
 [
     {
-      "id": 1,
       "name": "Oil Painting",
       "instructor": "John Smith",
       "availableSeats": 10,
@@ -8,7 +7,6 @@
       "img":"https://media.istockphoto.com/id/646498390/photo/joyful-young-female-art-student-paints-in-a-studio.webp?b=1&s=170667a&w=0&k=20&c=rKs_pRC8-NjKtgi88pnz_WFYz4nWYQv51DpdrFcsuyw="
     },
     {
-      "id": 2,
       "name": "Watercolor Workshop",
       "instructor": "Emily Johnson",
       "availableSeats": 8,
@@ -16,7 +14,6 @@
       "img":"https://media.istockphoto.com/id/1428833089/photo/teacher-and-students-shaping-clay-figurines-in-art-class.webp?b=1&s=170667a&w=0&k=20&c=yLOMMApaX-5nKjnsVpGpecX9193hpr-wQGagkFzBANs="
     },
     {
-      "id": 3,
       "name": "Sculpture Techniques",
       "instructor": "Michael Brown",
       "availableSeats": 12,
@@ -25,7 +22,6 @@
 
     },
     {
-      "id": 4,
       "name": "Mixed Media Collage",
       "instructor": "Sarah Davis",
       "availableSeats": 6,
@@ -35,7 +31,6 @@
       
     },
     {
-      "id": 5,
       "name": "Drawing Fundamentals",
       "instructor": "Alex Rodriguez",
       "availableSeats": 15,
@@ -44,7 +39,6 @@
 
     },
     {
-      "id": 6,
       "name": "Printmaking Workshop",
       "instructor": "Jessica Thompson",
       "availableSeats": 10,
