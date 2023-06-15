@@ -5,6 +5,9 @@ const app = express();
 const cors=require('cors');
 const port = process.env.PORT || 5000;
 
+const instructors=require('./Data/instructors.json');
+const classes=require('./Data/Classes.json');
+
 console.log(process.env.DB_PASS);
 
 
@@ -39,6 +42,13 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
     res.send('Hello World!')
+  });
+
+  app.get('/instructors',(req,res)=>{
+    res.send(instructors);
+  })
+  app.get('/classes',(req,res)=>{
+    res.send(classes);
   })
   
   app.listen(port, () => {

@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "name": "Oil Painting",
+      "instructor": "John Smith",
+      "availableSeats": 10,
+      "price": 50,
+      "img":"https://media.istockphoto.com/id/646498390/photo/joyful-young-female-art-student-paints-in-a-studio.webp?b=1&s=170667a&w=0&k=20&c=rKs_pRC8-NjKtgi88pnz_WFYz4nWYQv51DpdrFcsuyw="
+    },
+    {
+      "id": 2,
+      "name": "Watercolor Workshop",
+      "instructor": "Emily Johnson",
+      "availableSeats": 8,
+      "price": 40,
+      "img":"https://media.istockphoto.com/id/1428833089/photo/teacher-and-students-shaping-clay-figurines-in-art-class.webp?b=1&s=170667a&w=0&k=20&c=yLOMMApaX-5nKjnsVpGpecX9193hpr-wQGagkFzBANs="
+    },
+    {
+      "id": 3,
+      "name": "Sculpture Techniques",
+      "instructor": "Michael Brown",
+      "availableSeats": 12,
+      "price": 60,
+      "img":"https://media.istockphoto.com/id/1462932983/photo/pottery-mother-and-girl-painting-in-a-creative-workshop-with-pain-brush-and-clay-art-design.webp?b=1&s=170667a&w=0&k=20&c=s8Y1bHrFH2ywu5oCmgfYuSIxfEUYOyP1He22zxQj-UE="
+
+    },
+    {
+      "id": 4,
+      "name": "Mixed Media Collage",
+      "instructor": "Sarah Davis",
+      "availableSeats": 6,
+      "price": 30,
+      "img":"https://media.istockphoto.com/id/1406029247/photo/asian-montessori-preschool-student-enjoying-drawing-in-classroom.webp?b=1&s=170667a&w=0&k=20&c=45XfEMEdryrwnPDtkh7DWytqzgsXnq2GlGopHFNh9w4="
+
+      
+    },
+    {
+      "id": 5,
+      "name": "Drawing Fundamentals",
+      "instructor": "Alex Rodriguez",
+      "availableSeats": 15,
+      "price": 35,
+      "img":"https://media.istockphoto.com/id/474079606/photo/group-of-preschoolers-in-art-class-painting-pictures.webp?b=1&s=170667a&w=0&k=20&c=YSU2aVyOM1kcaP71nSM_7Gv4sXAOFSv8RYCNBvf4w-0="
+
+    },
+    {
+      "id": 6,
+      "name": "Printmaking Workshop",
+      "instructor": "Jessica Thompson",
+      "availableSeats": 10,
+      "price": 45,
+      "img":"https://media.istockphoto.com/id/484217960/photo/group-of-preschoolers-in-art-class-painting-pictures.webp?b=1&s=170667a&w=0&k=20&c=qK_YKkJMorLEGT_3mfPmaTln4-yFWI0_GR6N0ugxcB4="
+
+    }
+  ]
+  
