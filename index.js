@@ -6,7 +6,14 @@ const cors=require('cors');
 const port = process.env.PORT || 5000;
 
 
-
+app.use(
+  cors({
+    origin: "*",
+    methods: "GET,POST,PATCH,PUT,DELETE",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Headers": "*",
+  })
+);
 
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.3moahdm.mongodb.net/?retryWrites=true&w=majority`;
@@ -49,7 +56,7 @@ async function run() {
 run().catch(console.dir);
 
 
-app.use(cors());
+
 app.use(express.json());
 
 app.get('/', (req, res) => {
